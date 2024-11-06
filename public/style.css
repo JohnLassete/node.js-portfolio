@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
